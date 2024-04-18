@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+console.log("wellcome to CodeWithZefi - CLI Simple Calculator");
 import inquirer from "inquirer";
 const answer = await inquirer.prompt([
     { message: "Enter first number", type: "number", name: "firstNumber" },
